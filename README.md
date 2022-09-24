@@ -49,7 +49,7 @@ A：请检查文件编码格式是否为UTF-8或内容存在乱码<br>
 
 
 ### 🔎 参考文档
-+ [ExtendScript官方API](https://extendscript.docsforadobe.dev)
++ [ExtendScript官方开发手册](https://extendscript.docsforadobe.dev)
 + [AE脚本设计参考手册V1.0.0]()
 
 
