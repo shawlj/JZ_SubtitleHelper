@@ -60,7 +60,7 @@ A：请检查文件编码格式是否为UTF-8或内容存在乱码<br>
     <h3>关于脚本</h3>
   </summary>
   <ul>
-    <li>脚本是作者原创脚本，所有功能完全免费，不收取任何费用，初次使用时界面也会弹出公告！</li>
+    <li>脚本由作者开发完成，所有功能完全免费，不收取任何费用，初次使用时界面也会弹出公告！</li>
     <li>脚本虽微不足道，但未经作者授权请勿将其上传至任何商业网站进行售卖牟利！</li>
     <li>若您要转发到其他非盈利网站时记得要注明出处哦！</li>
     <li>若您是通过其他渠道购买所得，请立即退款差评并举报！</li>
@@ -78,6 +78,5 @@ A：请检查文件编码格式是否为UTF-8或内容存在乱码<br>
 [![](https://img.shields.io/static/v1?labelColor=orange&label=反馈&message=5&color=orange&style=social&logo=github)](https://github.com/shawlj/JZ_SubtitleHelper/issues)
 
 
-### ❤ 捐助通道
-
-
+### ❤ 打赏通道
+~~暂未开通~~
