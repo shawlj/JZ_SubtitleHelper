@@ -1,22 +1,19 @@
 # JZ_SubtitleHelper
 
-## 项目说明
-+ #### 全称叫"AE字幕助手"，专为AE视频特效软件开发的脚本，目的是代替创建字幕这种重复无聊的动作，将更多时间和精力用在有意义的地方~
-+ #### 通过查阅官方文档和网友的帮助，经过多天开发不断改进优化，已达成既定的目标，不排除将来会对脚本进行更新升级，拭目以待~
-+ #### 非标准工程项目，只是用于脚本介绍及相关记录，源码就不公开啦(~~```不忍直视```~~)~**
-+ #### 如果对您有帮助的话，别忘记点击右上角的Star哟~
-
-<br>
+### 📕 项目说明
+全称叫"AE字幕助手"，专为AE视频特效软件开发的脚本，目的是代替创建字幕这种重复无聊的动作，将更多时间和精力用在有意义的地方~<br>
+通过查阅官方文档和网友的帮助，经过多天开发不断改进优化，已达成既定的目标，不排除将来会对脚本进行更新升级，拭目以待~<br>
+非标准工程项目，只是用于脚本介绍及相关记录，源码就不公开啦(~~```不忍直视```~~)~ <br>
+如果对您有帮助的话，别忘记点击右上角的Star哟~<br><br>
 
 ### 最新版本 [JZ_SubtitleHelper_v1.2](https://github.com/shawlj/JZ_SubtitleHelper/releases/tag/JZ_SubtitleHelper_v1.1 "JZ_SubtitleHelper_v1.2")
 
-<br>
-
-### 下载地址：www.aliyundriver.com/shawlj/JZ_SubtitleHelper_v1.1
+### 🔗 下载地址：www.aliyundriver.com/shawlj/JZ_SubtitleHelper_v1.1
 加入阿里云盘分享地址：欢迎关注该账号，及时了解更新动态
+
 <br>
 
-### 功能介绍
+### 💠 功能介绍
     
 | **序号** | **功能列表** | **功能说明** | **对应版本** | **状态** |
 | --- | --- | --- | --- | --- |
@@ -35,11 +32,32 @@
 | 13  | 按指定时间指示器导入 | 默认从0秒生成文本图层<br>选择后所有字幕均以时间指示器为基准生成字幕 | V1.0 | ✅ |
 | 14  | 更多扩展 | - | - | - |
 
+
 <br>
+
+### ⚒ 安装方式
+> 将脚本拷贝到AE安装目录下```.../Support Files/Scripts/ScriptUI Panels```即可<br>
+> 启动AE点击顶部菜单窗口找到JZ_SubtitleHelper.jsx脚本
+
+
+### 🎯 常见问题
+Q：导入字幕为什么乱码？<br>
+A：请检查文件编码格式是否为UTF-8或内容存在乱码<br>
+...
+
+
+### 🔎 参考文档
++ [ExtendScript官方API](https://extendscript.docsforadobe.dev)
++ [AE脚本设计参考手册V1.0.0]()
+
+
+### 🏷 其他说明（待解决）
+> 脚本未加入国际化，面板界面为中文语言环境，若脚本在其他语言环境使用过程中出现问题请反馈。
+
 
 <details open>
   <summary>
-    <h3>版权声明</h3>
+    <h3>关于脚本</h3>
   </summary>
   <ul>
     <li>脚本是作者原创脚本，所有功能完全免费，不收取任何费用，初次使用时界面也会弹出公告！</li>
@@ -50,27 +68,16 @@
 </details>
 
 
-### 其他说明（待解决）
-未国际化：脚本都是中文，若在英文界面使用过程中出现问题请反馈。
-
-### 测试环境：windows10，其他环境自测
-
-### 安装方式
-将脚本拷贝到AE安装目录下的SciprtUI目录下运行AE
-
-### 常见问题
-
-
-感谢XXX
+### 💬 交流反馈
+[![](https://img.shields.io/static/v1?labelColor=000000&label=&message=Shawlj&color=FFFF00&style=flat&logo=github&logoColor=FFFFFF)](https://github.com/shawlj)
+[![](https://img.shields.io/static/v1?label=&message=微博&color=e6162d&style=flat&logo=sinaweibo&logoWidth=100%&logoColor=FFFFFF)](https://weibo.com/shawlj)
+[![](https://img.shields.io/static/v1?label=&message=微信&color=07C160&style=flat&logo=wechat&logoColor=FFFFFF)](https://space.bilibili.com/320001004)
+[![](https://img.shields.io/static/v1?label=&message=知乎&color=0066ff&style=flat&logo=zhihu&logoColor=FFFFFF)](https://www.zhihu.com/people/shawlj)
+[![](https://img.shields.io/static/v1?label=&message=邮箱&color=blueviolet&style=flat&logo=gmail&logoColor=FFFFFF)](shawlj@yeah.net)
+[![](https://img.shields.io/static/v1?label=&message=B站&color=f45a8d&style=flat&logo=bilibili&logoColor=FFFFFF)](https://space.bilibili.com/320001004)
+[![](https://img.shields.io/static/v1?labelColor=orange&label=反馈&message=5&color=orange&style=social&logo=github)](https://github.com/shawlj/JZ_SubtitleHelper/issues)
 
 
-### 参考API：链接
-
-协议：XXX
-
-### 关于脚本
-超链接：知乎，微博，B站
-
-### 捐助通道
+### ❤ 捐助通道
 
 
