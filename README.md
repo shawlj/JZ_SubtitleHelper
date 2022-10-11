@@ -1,16 +1,7 @@
-* [📚 项目背景](#-项目背景)
-* [🌐 下载方式](#-下载方式)
-* [💠 功能介绍](#-功能介绍)
-* [📅 更新记录](#-更新记录)
-* [⚙ 安装运行](#-安装运行)
-* [💻 开发环境](#-开发环境)
-* [🔎 参考文档](#-参考文档)
-* [📓 笔记记录](#-笔记记录)
-* [🎯 常见问题](#-常见问题)
-* [🏷 其他说明](#-其他说明待处理)
-* [📝 关于脚本](#关于脚本)
-* [💬 交流讨论](#-交流讨论)
-* [❤ 打赏赞助](#-打赏赞助)
+| [📚 项目背景](#-项目背景) | [🌐 下载方式](#-下载方式) | [💠 功能介绍](#-功能介绍) | [📅 更新记录](#-更新记录) |
+| --- | --- | --- | --- |
+| [⚙ 安装运行](#-安装运行) | [💻 开发环境](#-开发环境) | [🔎 参考文档](#-参考文档) | [📓 笔记记录](#-笔记记录) |
+| [🎯 常见问题](#-常见问题) | [💬 交流讨论](#-交流讨论) | [📝 关于脚本](#关于脚本) | [❤ 打赏赞助](#-打赏赞助) |
 
 ### 📚 项目背景
 
@@ -56,22 +47,31 @@ JZ_SubtitleHelper全称叫做"AE字幕助手"，专为AE视频特效软件开发
 | 4 | 2022/10/06 | [JZ_SubtitleHelper_v1.3](https://github.com/shawlj/JZ_SubtitleHelper/releases/tag/JZ_SubtitleHelper_v1.3 "JZ_SubtitleHelper_v1.3") |
 
 ### ⚙ 安装运行
-> 将脚本文件拷贝至AE安装目录下 **`.../Adobe/Adobe After Effects/Support Files/Scripts/ScriptUI Panels/`** <br>
-> 启动AE点击顶部菜单窗口点击脚本 **`JZ_SubtitleHelper_v1.3.jsxbin`**
+> **温馨提示：Mac系统路径略有不同，并且可能存在兼容问题！**
++ 拷贝AE字幕助手脚本文件到 **`.../Adobe/Adobe After Effects xx/Support Files/Scripts/ScriptUI Panels/`** 目录
++ 打开AE编辑->首选项->常规->脚本和表达式->勾选允许脚本读写和访问网络
++ 打开AE窗口->点击脚本( **`JZ_SubtitleHelper_v1.3.jsxbin`** )
 
 ### 💻 开发环境
 + [Vscode](https://code.visualstudio.com/)
 + [Javascript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
+### 🔎 参考文档
++ [ExtendScript docs](https://extendscript.docsforadobe.dev)
++ [Github docs](https://docs.github.com/)
++ [Adobe forum](https://community.adobe.com/)
++ [Adobe Jsx Samples](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ExtendScript-Toolkit/Samples/javascript)
++ [AE脚本设计参考手册V1.0](https://github.com/shawlj/JZ_SubtitleHelper/blob/7cce2cec8a14c8e4f20f1f2f011fff552308d32b/assets/%E3%80%8AAE%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8CV1.0.0%E3%80%8B.pdf)
+
 ### 📓 笔记记录
 ```jsx
 // 将选定数组索引图层进行预合成
-comp.layers.precompose([1,2..],"prename",true);
+comp.layers.precompose([1,2..,n],"prename",true);
 
 // 调用系统资源(如：打开网页链接/启动外部程序等)
-system.callSystem(localize("explorer %1", shawlj.github.com));
+system.callSystem(localize("explorer %1", "shawlj.github.com"));
 
-// 监听对话框所有控件事件（click,blur...）
+// 监听面板所有控件同类事件（click,blur...）
 dialog.addEventListener("click",function(event){alert(event.target)},false);
 
 // 网页数据请求（不支持HTTPS协议443端口）
@@ -91,13 +91,6 @@ app.beginUndoGroup("JZ_SubtitleHelper");
 // code...
 app.endUndoGroup();
 ```
-
-### 🔎 参考文档
-+ [ExtendScript docs](https://extendscript.docsforadobe.dev)
-+ [Github docs](https://docs.github.com/)
-+ [Adobe forum](https://community.adobe.com/)
-+ [Adobe Jsx Samples](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ExtendScript-Toolkit/Samples/javascript)
-+ [AE脚本设计参考手册V1.0](https://github.com/shawlj/JZ_SubtitleHelper/blob/7cce2cec8a14c8e4f20f1f2f011fff552308d32b/assets/%E3%80%8AAE%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8CV1.0.0%E3%80%8B.pdf)
 
 ### 🎯 常见问题
 Q：导入字幕为什么乱码？<br>
@@ -121,7 +114,7 @@ A：请检查文件编码格式是否为UTF-8或内容存在乱码<br>
   <ul>
     <li>脚本由作者开发完成，所有功能完全免费！</li>
     <li>脚本虽微不足道，未经作者授权不得用于商业！</li>
-    <li>若您转发至其他非盈利网站记得注明出处哦！</li>
+    <li>欢迎转发分享给更多小伙伴们使用哟！</li>
     <li>若您通过购买获得，请您立即退款差评并举报！</li>
   </ul>
 </details>
